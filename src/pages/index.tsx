@@ -152,7 +152,7 @@ export default function Home({ products, testimonial, posts }: { products: Produ
               <div className="mx-auto flex flex-col items-center gap-2 text-center max-w-xl">
                 <p>{testimonial.testimonial}</p>
                 <div className="w-24 h-24">
-                  <Image src="https://xsgames.co/randomusers/avatar.php?g=female" alt="testimonial" width={100} height={100} className='w-full h-full object-cover rounded-full' />
+                  <Image src={testimonial.image_url} alt="testimonial" width={100} height={100} className='w-full h-full object-cover rounded-full' />
                 </div>
                 <p><span className='font-bold'>{testimonial.customer_name}</span>, customer</p>
               </div>

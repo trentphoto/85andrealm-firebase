@@ -22,6 +22,7 @@ export interface Testimonial {
   testimonial: string;
   rating: number;
   created_at: Date;
+  image_url: string;
 }
 
 export interface BlogPost {
